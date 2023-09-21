@@ -1,0 +1,151 @@
+00:25:39	nitish:	hasnt started yet right
+00:25:55	Bikash Pradhan:	no
+00:26:19	Nikhil:	give me 2 min guys
+00:26:22	Team Foxmula:	We’ll start the class in 2 mins
+00:26:36	HARSHA:	okay:)
+00:27:32	Pratik B:	great
+00:27:32	HARSHA:	good
+00:27:33	Bikash Pradhan:	fine sir
+00:32:37	HARSHA:	yes
+00:33:07	Pratik B:	Somebody's mic is on...
+00:37:23	nitish:	how to undo the deletion of a cell in jupyter notebook
+00:37:24	nitish:	>
+00:37:26	nitish:	?
+00:37:52	Pratik B:	Yes
+00:37:56	Manav Agarwal:	yes
+00:39:08	Pratik B:	as_index basically enables the numbering right?
+00:39:15	Pratik B:	okay
+00:40:38	Aaliyan Khan:	in 18th cell index is not there
+00:40:42	Aaliyan Khan:	why?
+00:41:31	Aaliyan Khan:	ok
+00:43:04	Achleshwar Luthra:	Can you explain this once again that what was the purpose of dropping ' total' and again adding it to the df ?
+00:43:50	nitish:	why is total still there in df.info() even after dropping it
+00:44:39	nitish:	ok..thanks
+00:45:02	Manav Agarwal:	done
+00:45:14	Manav Agarwal:	yes
+00:45:15	Pratik B:	Done
+00:45:16	nitish:	no
+00:45:20	Aaliyan Khan:	no
+00:45:44	nitish:	why is as_index used...can u explain again
+00:46:42	nitish:	ok..thanks
+00:46:44	Achleshwar Luthra:	Are we provided with this data as of now ?
+00:46:58	Achleshwar Luthra:	No sir
+00:47:30	nitish:	what are we doing in the groupby function
+00:47:38	nitish:	grouping rep bases on total?
+00:48:31	HARSHA:	df = pd.read_csv('C:/Users/H/Documents')
+00:48:37	HARSHA:	this command is giving os error
+00:49:04	nitish:	yes
+00:49:25	HARSHA:	done
+00:49:25	Nikhil:	/Data.csv
+00:49:29	nitish:	will this overwrite the actual Total column
+00:49:30	nitish:	>
+00:49:34	HARSHA:	okay:)
+00:50:14	HARSHA:	how you will be adding the total again
+00:50:21	nitish:	so simply using .sum() also worked?
+00:50:33	HARSHA:	okay:)
+00:51:09	nitish:	without storing the result in a new column
+00:51:12	nitish:	named TAble
+00:53:50	Bikash Pradhan:	done
+00:53:55	Aaliyan Khan:	done
+00:53:58	nitish:	done
+00:54:01	HARSHA:	done
+00:54:06	Nikhila Kulukuru:	done
+00:59:26	HARSHA:	okay
+00:59:29	Nikhila Kulukuru:	yes
+00:59:31	Pratik B:	yes
+00:59:32	Jashanpreet Singh:	yes
+01:00:31	nitish:	wjy is it showing units and unit cost in the last command
+01:01:07	nitish:	oh..thanks
+01:02:13	HARSHA:	just once show the drop command at the top
+01:02:29	Nikhil:	df = df.drop(columns='Total')
+01:02:32	HARSHA:	fine:)
+01:03:28	nitish:	is only non-numerocal data allowed inside the groupby() brackets?
+01:03:34	nitish:	numerical*
+01:03:59	nitish:	thanks
+01:05:08	Achleshwar Luthra:	but is it allowed …..numerical data ?
+01:05:42	Achleshwar Luthra:	maybe on the basis of age ?
+01:06:06	Achleshwar Luthra:	okk
+01:06:14	nitish:	please explain the code currently on the screen.
+01:06:20	nitish:	yes
+01:07:23	nitish:	yes
+01:07:25	HARSHA:	done\
+01:07:36	Pratik B:	Done
+01:07:36	nitish:	done
+01:07:37	Bikash Pradhan:	done'
+01:07:45	Achleshwar Luthra:	done
+01:08:04	Aiswarya M:	done
+01:08:15	Jashanpreet Singh:	done
+01:13:27	nitish:	yes
+01:13:29	Pratik B:	Yea
+01:13:29	HARSHA:	yes
+01:17:02	HARSHA:	screen sharing is lagging 
+01:20:01	HARSHA:	it's fine now
+01:20:03	Bikash Pradhan:	yes
+01:20:03	HARSHA:	yes
+01:20:06	Pratik B:	how do we avoid that duplicate column from appearing?
+01:20:36	Pratik B:	Okay
+01:20:45	HARSHA:	yes\
+01:20:48	nitish:	yes
+01:24:52	Jashanpreet Singh:	done
+01:25:17	nitish:	done
+01:25:46	HARSHA:	done
+01:25:55	Nikhila Kulukuru:	could you pls scroll up once
+01:26:05	Nikhila Kulukuru:	ok thanks
+01:26:41	Nikhila Kulukuru:	done
+01:26:47	Pratik B:	Done
+01:28:08	Achleshwar Luthra:	ID_x and ID_y are formed only coz they had same name ryt ?
+01:32:09	nitish:	is NAN same as NULL?
+01:32:17	nitish:	ok
+01:33:16	Pratik B:	Nope
+01:33:17	Manav Agarwal:	can you explain left join again
+01:33:23	Manav Agarwal:	from the output
+01:33:37	HARSHA:	can you explain nan in fulljoin
+01:34:29	Manav Agarwal:	yes
+01:34:57	Aaliyan Khan:	inner=emp.merge(dep,left_on='Department_ID',right_on='ID',how='inner')
+01:35:19	Aaliyan Khan:	inner=dep.merge(emp,left_on='Department_ID',right_on='ID',how='inner')inner
+01:35:21	HARSHA:	okay
+01:35:29	Aaliyan Khan:	how to know which one to use
+01:35:42	Manav Agarwal:	what is ID_y?
+01:37:03	Manav Agarwal:	got it 
+01:37:07	HARSHA:	done:)
+01:37:59	Manav Agarwal:	ok
+01:38:04	Aaliyan Khan:	what if both tables are equally likely to become base table?
+01:38:51	Aaliyan Khan:	in this 2nd case is giving error. why?
+01:39:04	Aaliyan Khan:	yes
+01:39:31	Aaliyan Khan:	ok 
+01:39:35	Aaliyan Khan:	got it
+01:40:23	Pratik B:	Done
+01:41:23	Aaliyan Khan:	done
+01:41:28	Manav Agarwal:	done
+01:41:30	Nikhila Kulukuru:	done
+01:41:34	Bikash Pradhan:	done
+01:41:34	HARSHA:	done
+01:41:35	Jashanpreet Singh:	done
+01:41:41	nitish:	done
+01:44:53	Nikhila Kulukuru:	yes
+01:44:56	Bikash Pradhan:	yes
+01:44:57	Pratik B:	yes
+01:44:57	HARSHA:	no
+01:45:01	Aaliyan Khan:	correlation I guess
+01:45:08	Achleshwar Luthra:	yes
+01:45:11	Aiwarya M:	no
+01:45:15	HARSHA:	okay I'll go through it
+01:45:54	Aaliyan Khan:	can you repeat
+01:47:41	Aaliyan Khan:	yes
+01:48:41	Aaliyan Khan:	frequency = loyalty
+01:49:24	Aaliyan Khan:	no
+01:49:31	nitish:	yes
+01:49:36	Bikash Pradhan:	no, thanks
+01:49:36	Nikhila Kulukuru:	no
+01:49:40	nitish:	do we need ti study statistics ?
+01:49:42	HARSHA:	no, thanks
+01:49:43	nitish:	to*
+01:50:07	Aaliyan Khan:	normal distribution etc?
+01:50:09	nitish:	ok..thanks
+01:50:25	HARSHA:	are statisticslike correlation are explained in the videos that are shaed by team before joining
+01:50:45	HARSHA:	okay:)
+01:50:56	nitish:	no
+01:50:58	HARSHA:	no thank you:)
+01:51:53	Pratik B:	Thanks
+01:51:54	Aaliyan Khan:	thanks
+01:51:58	HARSHA:	thank you bye
